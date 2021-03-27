@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1EFE703BFF72BB413E300726 /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 566DE51DB0FB22FE9F94D25E /* Pods_Parstagram.framework */; };
+		44303B59260FAC9900207234 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44303B58260FAC9900207234 /* CommentCell.swift */; };
 		447ADE862606787700BB0C08 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447ADE852606787700BB0C08 /* LoginViewController.swift */; };
 		447ADE8E2606788B00BB0C08 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447ADE8D2606788B00BB0C08 /* FeedViewController.swift */; };
 		447ADE9326068A5100BB0C08 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447ADE9226068A5100BB0C08 /* CameraViewController.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		44303B58260FAC9900207234 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		447ADE852606787700BB0C08 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		447ADE8D2606788B00BB0C08 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		447ADE9226068A5100BB0C08 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				447ADE8D2606788B00BB0C08 /* FeedViewController.swift */,
 				447ADE9226068A5100BB0C08 /* CameraViewController.swift */,
 				44D48FED2606A6070041BEE0 /* PostCell.swift */,
+				44303B58260FAC9900207234 /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				447ADE8E2606788B00BB0C08 /* FeedViewController.swift in Sources */,
 				44965CC4260675EC00141969 /* SceneDelegate.swift in Sources */,
 				44D48FEE2606A6070041BEE0 /* PostCell.swift in Sources */,
+				44303B59260FAC9900207234 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
